@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgb(241, 241, 83);
+  color: #771e1e;
+  padding: 15px 0;
+  text-align: center;
+}
+h1 {
+  font-weight: 300%;
+  color: #771e1e;
+  font-size: 30px;
+}
+.hero {
+  padding-top: 5px;
+  height: 600px;
+  width: 100%;
+  margin-bottom: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url("20241014_114323.jpg");
+  /* background: rgba(0, 0, 0, 0.9) url("20241014_114323.jpg"); */
+  background-size: cover;
+  background-position: center;
+}
+.official {
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #f1f153;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 2%;
+}
+main {
+  background-color: rgb(211, 205, 205);
+  padding: 5px;
+}
+h3 {
+  color: rgb(29, 28, 27);
+  font-size: 20px;
+  text-align: center;
+}
+img {
+  height: 70vh;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.mai-abk {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.one {
+  float: left;
+  margin: 20px 50px;
+}
+.two {
+  padding: 20px;
+}
+.clr {
+  clear: both;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #1b1919;
+}
+.foot {
+  color: #ddd;
+  font-size: 12px;
+}
+footer {
+  background-color: #272626e5;
+  padding: 20px;
+  border-top: 3px solid #ddd;
+  clear: both;
+  text-align: center;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tikau Emirate</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Tikau Emirate Council</h1>
+        <nav>
+          <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list" id="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ruler.html">Rulers of Tikau</a></li>
+            <li><a href="festivals.html">Events</a></li>
+            <li><a href="Ramadan.html">Tafis Ramadan 1445AH</a></li>
+            <li><a href="Act.html">Activities of Tikau Emirate Council</a></li>
+            <li>
+              <a href="#">More &#9660;</a>
+              <ul class="dropdown">
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="tikaustory.html">History</a></li>
+                <li>
+                  <a
+                    href="https://www.google.com/maps/place/Nangere,+Yobe,+Nigeria/@11.833333,11.166667,15z"
+                    target="_blank"
+                    >Location</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form id="search-form">
+            <input
+              type="search"
+              id="search-input"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+            <button type="submit" id="search-button">Go</button>
+          </form>
+        </nav>
+      </div>
+    </header>
+    <div class="hero">
+      <h2 class="official">WELCOME TO TIKAU EMIRATE OFFICIAL WEBSITE</h2>
+      <p class="like">
+        Our official website serves as a comprehensive resource hub designed to
+        provide you with easy access to essential information, <br />
+        services and updates on Tikau Emirate.
+      </p>
+    </div>
+
+    <!-- <div class="sidebar">
+      <p>Left Sidebar</p>
+    </div> -->
+    <main>
+      <div class="sidebar">
+        <h3><span class="rate">Emirate</span> Menu</h3>
+        <div class="emirate-cards">
+          <div class="card">
+            <a href="introduction.html">Introduction to Tikau</a>
+          </div>
+          <div class="card">
+            <a href="tikaustory.html">Tikau Story</a>
+          </div>
+          <div class="card"><a href="museum.html">Tikau Museum</a></div>
+          <div class="card">
+            <a href="education.html">Educational Institutions</a>
+          </div>
+          <div class="card">
+            <a href="festivals.html">Festivals and Ceremonies</a>
+          </div>
+          <div class="card">
+            <a href="tourism.html">Tourism Attraction</a>
+          </div>
+          <div class="card">
+            <a href="structure.html">Structure of the Council</a>
+          </div>
+          <div class="card"><a href="ruler.html"> Rulers of Tikau</a></div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="main-content">
+          <h2 class="shift">Present Emir of Tikau Emirate</h2>
+          <p class="para">
+            <img
+              class="image"
+              src="images/tika.png"
+              alt="The Emir of Tikau Emirate"
+            />
+            <div class="clr"></div>
+            <b>ALHAJI ABUBAKAR MUHAMMADU IBN GREMA</b>, The eldest of Alh. Dr.
+            Muhammadu Abubakar Ibn Grema, the late Emir of Tikau. Alhaji
+            Abubakar Muhammadu Ibn Grema has a Bachelor of Agric Economics &
+            Extension, from Bayero University Kano,and MSc in Agric Economics
+            from university of Readings, United Kingdom (Applied Econometrics,
+            Development and Resource Economics) and a PhD from Yobe State
+            University (inview) in Rural Development. He has worked in various
+            capacities at Yobe state University. Before his appointment,
+            Abubakar Muhammadu Ibn Gream, was the Deputy Director Agric
+            Services, at Yobe State University and also the district Head of
+            Sabon Gari and Yarima of Tikau Emirate.
+          </p>
+          <div class="button-container">
+            <button class="learn-more-btn">
+              <a href="ruler.html" class="link-down"> Explore </a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <h3><span class="rate">Most</span>Recent Articles</h3>
+        <div class="emirate-cards">
+          <div class="card">
+            <a href="tikaustory.html">BRIEF HISTORY OF TIKAU EMIRATE </a>
+          </div>
+          <div class="card">
+            <a href="structure.html">STRUCTURE OF THE EMIRATE COUNCIL</a>
+          </div>
+          <div class="card"><a href="introduction.html">INTRODUCTION</a></div>
+          <div class="card">
+            <a href="festivals.html"
+              >FESTIVALS AND CEREMONIES IN TIKAU EMIRATE</a
+            >
+          </div>
+        </div>
+
+        <div style="margin: 2vh 0vh">
+          <h3><span class="rate"></span>Latest News</h3>
+          <div class="emirate-cards">
+            <div class="card"><a href="">Latest Update </a></div>
+            <div class="card"><a href="">latest Event</a></div>
+            <div class="card"><a href="">Latest News</a></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 TIKAU EMIRATE. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script>
+      const burger = document.getElementById("burger");
+      const navList = document.getElementById("nav-list");
+
+      burger.addEventListener("click", () => {
+        navList.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

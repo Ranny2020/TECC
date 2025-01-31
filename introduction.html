@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tikar Emirate</title>
+    <link rel="stylesheet" href="introduction.css" />
+  </head>
+  <body>
+    <header>
+      <h1>TIKAU EMIRATE</h1>
+    </header>
+    <main>
+      <h2>THE HISTORICAL EVOLUTION OF TIKAU EMIRATE</h2>
+      <p>
+        <b>ON AN OCCASION</b> like this, History's ventured tellalls burst with
+        fodder for curious ears. Well, Tikau Emirate is no accident of history.
+        It is the assured end of Destiny. It began as a trifle, a flash in the
+        pan. Bereft of the camera or the video, its origin, like that of all
+        other Africans, is translucent. Here were a people with a veritable,
+        lived experience, without the camera, the mechanical wit to freeze the
+        past to a lucid recall. Yet, there is no total loss. The lacuna is
+        mitigated by the human mind and ear. The ear pre-dates a grand father,
+        so goes a Hausa saying. Oral tradition and written records say much more
+        Tikau.<br />
+        Archeological and ethno-linguistic postulates categorize the Karai-Karai
+        as part of the Chadic group of languages. In early times, a huge water
+        body, called the Mega-Chad,gradually shrank to the present-day Lake
+        Chad. Before it shrank, people on its shores were culturally homogenous
+        and cohesive with a common language. People began to move in separate
+        groups, into the rich plains left by the receding water, searching for
+        agricultural and hunting lands. As groups separated, their dialects
+        changed. With time, each group evolved a different language, all of the
+        languages sharing certain vocabularies from the defunct Mega- Language.
+        Thus, today, where the Karai-karai word for horse is doku, the Ngizim
+        say duka and the Hausa say doki. Where the Ngizim refer to the eye as
+        da, the Bolewa say udo, the Hausa Say Ido. The Karai-Karai sai ido.
+        Other examples abound. Each group founded its exclusive settlements
+        hence the emergence of cities and towns and villages in most of the Chad
+        Basin. Going by this account, Tikau is one such.
+      </p>
+      <img
+        id="myImage"
+        src="20241014_114323.jpg"
+        alt="entrance of the palace"
+        style="width: 300px; cursor: pointer"
+      />
+      <div id="myModal" class="modal">
+        <span class="close" id="closeModal">&times;</span>
+        <img class="modal-content" id="expandedImage" />
+      </div>
+
+      <p>
+        Oral tradition assigns the origin of Tikau to a different account. It is
+        related that the Karai-karai shifted westward from Yemen in the Middle
+        East,along with the Kanuri and other groups. The Kisrah
+        Legend,especially, links this migration to the successive advents of the
+        great monotheist religions of Judaism,Christianity and Islam. Legend
+        Aside,there exists evidence of migration from Egypt,where,as early as
+        the year 1052 A.D . banu-Hilal nomadic Arabs commenced their migration
+        from Egypt to the pastoral Chadic plains,thereby involving into the
+        president-day Shuwa-Arabs.Whether their origin lay in the Middle East as
+        maintained by legend or on the shores of the Mega Chad since the genesis
+        of Man, as asserted by Archeology and ethnography, the subsequent
+        metamorphoses of the Chadic peoples entailed migrations. Some
+        Karai-Karai splintered to cover the eastern plains of present-day Jigawa
+        (Gwaram) and Bauchi (Shira) States. Others settled in the arable western
+        plains of Yobe State. Here,around the 15th century (about 400 years
+        ago), they founded the various Karai-Karai clans of Tikau, Langawa,
+        Degubi, Fagarau and Dazigau, which though in its present-day suburbs,
+        pre-dated the founding of Potiskum. Each of the various entities
+        eventually developed into a powerful Chiefdom.A man called Shyekau
+        founded the Tikau dynasty. Other rulers reigned in succession, notably,
+        Ndiirama Jiji and Ndiirama Mataata. Mataata was confronted and defeated
+        by the first Borno Caliphate in 1758 (242 years ago). His successor,
+        Warkati, was the first to adopt the Kanuri title Mai,following the
+        friendly relations that ensued between Tikau and Borno.
+      </p>
+    </main>
+    <footer>
+      <p class="intro">&copy; 2024 TIKAU EMIRATE. ALL RIGHTS RESERVED.</p>
+    </footer>
+    <script>
+      const img = document.getElementById("myImage");
+      const modal = document.getElementById("myModal");
+      const expandedImg = document.getElementById("expandedImage");
+      const closeModal = document.getElementById("closeModal");
+
+      img.onclick = function () {
+        modal.style.display = "flex";
+        expandedImg.src = this.src;
+      };
+
+      closeModal.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
