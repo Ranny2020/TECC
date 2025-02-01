@@ -1,0 +1,97 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(241, 241, 83);
+  color: #771e1e;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 300;
+  color: #771e1e;
+  font-size: 30px;
+  text-align: center;
+}
+
+.small {
+  font-size: 25px;
+  color: #771e1e;
+  font-weight: 300;
+}
+
+main {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on smaller screens */
+  background-color: rgb(211, 205, 205);
+  padding: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(270px, 1fr)
+  ); /* 1fr ensures it occupies available space */
+  gap: 20px;
+  padding: 10px;
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: column; /* Stack images and text vertically */
+  align-items: center; /* Center align items */
+}
+
+.gallery-item img {
+  width: 100%; /* Use full width of its container */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-item p {
+  font-size: 15px;
+  color: #771e1e;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.tired {
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  main {
+    padding: 10px; /* Reduce padding for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px; /* Smaller header font size for mobile */
+  }
+
+  .small {
+    font-size: 20px; /* Adjust small font size for mobile */
+  }
+
+  .gallery-item p {
+    font-size: 13px; /* Smaller paragraph font size for mobile */
+  }
+}
+
+footer {
+  background-color: #383434;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  clear: both;
+  text-align: center;
+  color: #ddd;
+  font-size: 12px;
+}
